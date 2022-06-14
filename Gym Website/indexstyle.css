@@ -1,0 +1,224 @@
+body{
+    margin :0px;
+    padding: 0px;
+    background: url('equpment.jpg');
+    background-repeat: ;
+    font-family: 'Courgette', cursive;
+    /* display: inline-block; */
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    width: 150px;
+    text-align: center;
+    /* margin: auto; */
+}
+.mid{
+    display: block;
+    /* border: 2px solid rgb(102, 255, 0); */
+    width: 50%;
+    margin: 18px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    width: 180px;
+    /* border: 2px solid rgb(25, 0, 255); */
+}
+.btn{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(169, 223, 245);
+    border: 1px solid rgb(99, 99, 246);
+}
+.navbar{
+    margin: 8px auto;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 25px 25px
+    
+}
+.navbar li a:hover{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(214, 90, 90);
+    text-decoration: underline;
+    
+}
+.left img{
+    width: 85px;
+}
+.formcontainer {
+    border: 2px solid white;
+    margin: 50px 50px;
+    padding: 50px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.formcontainer h1{
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Potta One', cursive;
+    color: #080f46;
+}
+.form-group button{
+    display:block;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 300px;
+    font-family: 'Potta One', cursive;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
